@@ -21,6 +21,5 @@ def details(request , id):
        context = {
            'post' : post
        }
-
        return render(request , 'posts/details.html' , context)
 
